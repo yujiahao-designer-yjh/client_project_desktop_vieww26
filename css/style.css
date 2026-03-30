@@ -415,7 +415,7 @@ footer a:hover, footer a:focus {
 .error-section p {
   max-width: 35rem;
   margin: 0 auto var(--space-md);
-  color: var(--um-ash);
+  color: var(--um-black);
 }
 
 .error-btn {
