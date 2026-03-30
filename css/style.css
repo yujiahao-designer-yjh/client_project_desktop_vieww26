@@ -401,7 +401,7 @@ footer a:hover, footer a:focus {
   font-size: clamp(6rem, 20vw, 12rem);
   font-family: var(--font-heading);
   font-weight: 900;
-  color: var(--um-maize);
+  color: var(--um-blue);
   -webkit-text-stroke: 3px var(--um-blue);
   line-height: 1;
   margin-bottom: var(--space-sm);
