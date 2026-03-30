@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>404 - Page Not Found</title>
+</head>
+<body>
+
+    <header>
+        <a class="skip-link" href="#main-content">Skip to Main Content</a>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resumes</a></li>
+                <li><a href="network.html">Networking</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+        <h1>Page Not Found</h1>
+    </header>
+
+    <main id="main-content">
+        <section class="error-section">
+            <p class="error-code">404</p>
+            <h2>Oops! This page doesn't exist.</h2>
+            <p>The page you're looking for may have been moved, deleted, or never existed. Let's get you back on track.</p>
+            <a href="index.html" class="error-btn">Go Back to Home</a>
+
+            <h3>Or explore these pages:</h3>
+            <ul>
+                <li><a href="resume.html">Resume Support</a></li>
+                <li><a href="network.html">Networking &amp; Connections</a></li>
+                <li><a href="portfolio.html">Portfolio Guide</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office</a> | &copy; <span id="year"></span></p>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+
+</body>
+</html>
