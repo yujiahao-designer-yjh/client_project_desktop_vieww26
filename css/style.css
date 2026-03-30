@@ -401,7 +401,7 @@ footer a:hover, footer a:focus {
   font-size: clamp(6rem, 20vw, 12rem);
   font-family: var(--font-heading);
   font-weight: 900;
-  color: var(--um-blue);
+  color: var(--um-black);
   -webkit-text-stroke: 3px var(--um-blue);
   line-height: 1;
   margin-bottom: var(--space-sm);
@@ -415,7 +415,7 @@ footer a:hover, footer a:focus {
 .error-section p {
   max-width: 35rem;
   margin: 0 auto var(--space-md);
-  color: var(--um-black);
+  color: #555555;
 }
 
 .error-btn {
